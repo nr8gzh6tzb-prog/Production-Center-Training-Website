@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Video 3</h1>
+  <!-- Title and link: edit TITLES[3] and VIDEOS[3] in config.js -->
+  <div id="player"></div>
+  <p id="status">Watch to the end to continue.</p>
+  <a class="btn back" href="video2.html">← Back</a>
+  <a id="next" class="btn locked" aria-disabled="true" href="video4.html">Next →</a>
+  <button id="testbtn" class="btn test" hidden>Mark as watched (TEST ONLY)</button>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+  <script>setupVideo(3);</script>
+</body>
+</html>

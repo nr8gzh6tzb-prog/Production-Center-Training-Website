@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign-off</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Training Sign-off</h1>
+  <!-- Submissions go to FORMSPREE_URL in config.js. done.html opens only after a successful response. -->
+  <form id="f" method="POST">
+    <input type="hidden" name="_subject" value="Production Center training sign-off">
+    <label>Full name</label>
+    <input name="name" required autocomplete="name">
+    <label>Typed signature</label>
+    <input name="signature" required placeholder="Type your full name as signature" autocomplete="off">
+    <label>Date</label>
+    <input type="date" name="date" required>
+    <p>
+      <a class="btn back" href="video5.html">← Back</a>
+      <button class="btn" type="submit">Submit sign-off</button>
+    </p>
+  </form>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+  <script>setupSignoff();</script>
+</body>
+</html>
