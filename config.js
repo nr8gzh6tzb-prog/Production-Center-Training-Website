@@ -15,9 +15,6 @@ const SITE_KEY = "production";
 const TITLES = {
   1: "Video 1", // <-- EDIT VIDEO 1 TITLE HERE
   2: "Video 2", // <-- EDIT VIDEO 2 TITLE HERE
-  3: "Video 3", // <-- EDIT VIDEO 3 TITLE HERE
-  4: "Video 4", // <-- EDIT VIDEO 4 TITLE HERE
-  5: "Video 5"  // <-- EDIT VIDEO 5 TITLE HERE
 };
 
 // Paste a YouTube, Vimeo, or MP4 link for each video.
@@ -27,9 +24,6 @@ const TITLES = {
 const VIDEOS = {
   1: "welcome-video.mp4", // <!-- PASTE VIDEO 1 LINK HERE -->
   2: "production-hygiene.mp4", // <!-- PASTE VIDEO 2 LINK HERE -->
-  3: "", // <!-- PASTE VIDEO 3 LINK HERE -->
-  4: "", // <!-- PASTE VIDEO 4 LINK HERE -->
-  5: ""  // <!-- PASTE VIDEO 5 LINK HERE --> (e.g. "my-video.mp4")
 };
 
 // Same Formspree form as the retail site, so the same owner is notified.
