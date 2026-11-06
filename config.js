@@ -26,7 +26,7 @@ const TITLES = {
 // YouTube and Vimeo play, but their players cannot be kept from skipping.
 const VIDEOS = {
   1: "welcome-video.mp4", // <!-- PASTE VIDEO 1 LINK HERE -->
-  2: "", // <!-- PASTE VIDEO 2 LINK HERE -->
+  2: "production-hygiene.mp4", // <!-- PASTE VIDEO 2 LINK HERE -->
   3: "", // <!-- PASTE VIDEO 3 LINK HERE -->
   4: "", // <!-- PASTE VIDEO 4 LINK HERE -->
   5: ""  // <!-- PASTE VIDEO 5 LINK HERE --> (e.g. "my-video.mp4")
